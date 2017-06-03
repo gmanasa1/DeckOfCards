@@ -1,0 +1,11 @@
+apply plugin : 'application'
+
+repositories {
+	mavenCentral()
+}
+
+mainClassName = "ets.DeckOfCards"
+
+dependencies {
+	compile "org.apache.commons:commons-math:2.0"
+}
